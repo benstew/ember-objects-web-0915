@@ -9,7 +9,7 @@ describe("Programmer", function(){
   beforeEach(function(){
     Conference.create();
     matz = Programmer.create({
-      firstName: "Yukihiro",
+      firstName: "Yukihiro", 
       lastName: "Matsumoto",
       nickName: "Matz",
       age: 50,
